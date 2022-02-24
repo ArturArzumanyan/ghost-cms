@@ -7,7 +7,7 @@
  **/
 
 // Don't allow NODE_ENV to be null
-process.env.NODE_ENV = process.env.PORT || process.env.NODE_ENV || 'development' || 'https://ghost-csm-custom.herokuapp.com/' ;
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 const argv = process.argv;
 const mode = argv[2];
