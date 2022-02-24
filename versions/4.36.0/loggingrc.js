@@ -18,6 +18,8 @@ loggingConfig.metrics.metadata = {
     // Undefined if unavailable
     siteId: config.get('hostSettings:siteId'),
     domain: config.get('url'),
+ 
+
     version: ghostVersion.safe
 };
 
